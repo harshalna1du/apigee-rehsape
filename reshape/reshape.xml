@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="reshape">
+    <Basepaths>/reshape</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1527542591605</CreatedAt>
+    <CreatedBy>hnaidu@empoweredbenefits.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>reshape</DisplayName>
+    <LastModifiedAt>1527549622945</LastModifiedAt>
+    <LastModifiedBy>hnaidu@empoweredbenefits.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:176b5341340c78ca086bbaf88b7c6b19e4f45fbc8c804717e1c0ee501e41e941c0c0b4ebfb783ac78f35c67d7323b2869edfaa84a0efc0aec8643118488bfc08</ManifestVersion>
+    <Policies>
+        <Policy>EV-ExtractReshapeParam</Policy>
+        <Policy>EV-ExtractVariables</Policy>
+        <Policy>JS-Reshape</Policy>
+        <Policy>removebody</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://jmespath.js</Resource>
+        <Resource>jsc://removebody.js</Resource>
+        <Resource>jsc://reshape.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

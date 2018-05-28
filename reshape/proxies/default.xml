@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>EV-ExtractReshapeParam</Name>
+            </Step>
+            <Step>
+                <Name>EV-ExtractVariables</Name>
+            </Step>
+            <Step>
+                <Name>removebody</Name>
+            </Step>
+        </Request>
+        <Response>
+            <Step>
+                <Name>JS-Reshape</Name>
+            </Step>
+        </Response>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <RouteRule name="default"/>
+    <HTTPProxyConnection>
+        <BasePath>/reshape</BasePath>
+        <Properties/>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+</ProxyEndpoint>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="EV-ExtractReshapeParam" version="SHA-512:f2acdb06e6c361850a6e3007bf2d522dd5eba055dc98f0b2aff23d2da448d9120eb5aa4a7a2d3e8284e175a5cc1d813c96fc57d200a5eba31151fe62168080f7"/>
+        <VersionInfo resourceName="EV-ExtractVariables" version="SHA-512:22071c84c0e3526d5528267301e67f7400d7c4fd9b869b46b957a5baec417331625071661eddefe03b02af27f2d584d98fb030ef5ccb7889085b70116ea8dd5a"/>
+        <VersionInfo resourceName="JS-Reshape" version="SHA-512:9bf0596e1c38452361ec8188708ac40e139f032c86d95039dea27a80b13bcd516cc2c6f220014b696da22fee9417c11728bbed16f2ea1ccfa7e71f1a147bf937"/>
+        <VersionInfo resourceName="removebody" version="SHA-512:e6816028c91f61bd3e2f6d89ff3dae89bd9b2f7d1bc33256de6e03259ef39a158d22340f58678ea82ec9c33eefac7e2c99d7053cd1132e8b77f0282215fc7624"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:b743f6c68199deff2a4edfe76b3ae8e4d95df6d8f495d697af5d7565bef28163f6a0b6cc35e80bf8216ce20684d3c1d924c9839ac2af398d73373ceb004b065e"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://jmespath.js" version="SHA-512:2f24271a4a70fe9242442b6343e28b9009968a77f8fe2c35ab46332c1163c1a5c53cbd110c92048e4b9d02d54a1c07016079fc391332ceddb6055f955e4936be"/>
+        <VersionInfo resourceName="jsc://removebody.js" version="SHA-512:486f1365e0152fdd6ccf5fba4b780e5a40c3cea4d3252237c2a595b8f751cb2b682deaf95e15975cbd677f8d3b37f3945faf5c290fb4e2e9b8a1d52d3a052ad0"/>
+        <VersionInfo resourceName="jsc://reshape.js" version="SHA-512:0276ed25fa3b8ff770734508b8afca3a78f91cdeb9d481082482f48b282f53e035a2bc298951854007bf9b3828fe744ea586046aa45ce9b66d44776c8b835393"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4c4445a183c7e4bf6bada4537abaf2607e839bed5cef387a2eda09ca9243f02c4f2088622841c92f69b6a562e05150826fc685540cb028ee9fb435f86a2ddb9d"/>
+    </TargetEndpoints>
+</Manifest>
