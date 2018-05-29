@@ -37,10 +37,10 @@ curl --request POST \
 ```
 ## Tips on integrating with your APIS
 
-⋅⋅* Use the latest JMESPath js library that can be found here https://github.com/jmespath/jmespath.js.
-⋅⋅* Extract the query params and the JMESPath expression in the proxy endpoint preflow.
-⋅⋅* Use the javascript callout policy in the target response to intercept the target response, reshape it using JMESpath and set it again into context.proxyResponse.content.
-⋅⋅* Use try /catch to trap errors from the jmespatj.js library
+..* Use the latest JMESPath js library that can be found here https://github.com/jmespath/jmespath.js.
+..* Extract the query params and the JMESPath expression in the proxy endpoint preflow.
+..* Use the javascript callout policy in the target response to intercept the target response, reshape it using JMESpath and set it again into context.proxyResponse.content.
+..* Use try /catch to trap errors from the jmespatj.js library
 
 
 
